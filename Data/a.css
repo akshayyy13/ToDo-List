@@ -1,0 +1,86 @@
+
+.footer {
+  background: #162c3b;
+  padding: 1% 6%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer p{
+  font-family: 'El Messiri', sans-serif;
+  color: white;
+}
+.footer ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer ul li {
+  list-style: none;
+}
+.footer ul li a {
+  text-decoration: none;
+  display: inline-block;
+  margin: 0px 18px;
+}
+@media (max-width:410px)
+{
+  .footer ul li a{
+    margin: 0px 7px;
+  }
+}
+.footer ul li a img {
+  max-width: 22px;
+  filter: invert(1);
+}
+.heading {
+  text-align: center;
+}
+.heading h2 {
+  color: rgb(0, 0, 0);
+  font-weight: 530;
+  font-size: 2.5em;
+}
+.heading h2 span {
+  color: red;
+  font-weight: 600;
+  font-size: 2em;
+}
+.footer .emoji{
+  margin-left: 10px;
+  width: 50px;
+  height: 50px;
+}
+.footer .icon:hover{
+  outline-offset: 4px;
+}
+.footer .icon:hover img{
+  animation: shake .25s;
+}
+@keyframes shake{
+  10%{transform: rotate(15deg);}
+  20%{transform: rotate(-15deg);}
+  30%{transform: rotate(15deg);}
+  40%{transform: rotate(-15deg);}
+}
+.footer .li:hover{
+  border-radius: 30px;
+  background-color: #0077b5;
+  outline-color: #0077b5;
+}
+.footer .fb:hover{
+  border-radius: 30px;
+  background-color: darkblue;
+  outline-color: darkblue;
+}
+.footer .git:hover{
+  border-radius: 30px;
+  background-color: black;
+  outline-color: black;
+  filter: invert(1);
+}
+.footer .ig:hover{
+  border-radius: 30px;
+  background-color: orangered;
+  outline-color: orangered;
+}
